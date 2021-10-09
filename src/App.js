@@ -1,4 +1,6 @@
 import SimpleQuery from "./SimpleQuery";
+import ChainedQueries from "./ChainedQueries";
+import MutationAndChainedQuery from "./MutationAndChainedQuery";
 
 function App() {
   return (
@@ -7,8 +9,9 @@ function App() {
         <h1>React queries templates</h1>
       </header>
       <main>
-        <h2>Simple query</h2>
         <SimpleQuery />
+        <ChainedQueries />
+        <MutationAndChainedQuery />
       </main>
     </div>
   );
