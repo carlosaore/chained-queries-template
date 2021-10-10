@@ -43,7 +43,7 @@ const MutationAndChainedQuery = () => {
 
 	return (
 		<section className="section">
-			<h2>Chained queries</h2>
+			<h2>Mutation and chained query</h2>
 			<p>Submit to send data to the backend and, on success, trigger a query (but could be whatever you want)</p>
 			<form onSubmit={editUserProfileHandler}>
 				<label htmlFor="first-name">First name</label>
